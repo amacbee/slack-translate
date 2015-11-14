@@ -32,3 +32,8 @@ module.exports = (robot) ->
     res.send "Please speak calmly. (落ち着いて話してください)"
     res.send "I don't know how to say. (なんと言えばいいか分かりません)"
     res.send "Let me think about it. (ちょっと考えさせて下さい)"
+
+  robot.respond /お礼をしたい$/i, (res) ->
+    res.send "Thank you for letting me know. (教えてくれてありがとう)"
+    res.send "I had a lot of fun. (楽しい時間を過ごせました)"
+    res.send "Thank you always for everything. (いつもありがとう)"
