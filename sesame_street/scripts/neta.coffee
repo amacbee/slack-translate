@@ -13,6 +13,6 @@ module.exports = (robot) ->
     res.send "お〜い <@hamuhamu>"
 
 
-  robot.hear /sesamepi (.*)/, (res) ->
+  robot.hear /spi (.*)/, (res) ->
     word = res.match[1]
     res.send "jpi #{word}"
