@@ -12,6 +12,6 @@ setup:
 help:
 	cat Makefile
 
-devploy:
+deploy:
 	git subtree push --prefix sesame_street/ heroku master
 
