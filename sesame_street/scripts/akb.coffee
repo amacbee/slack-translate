@@ -9,5 +9,5 @@
 
 module.exports = (robot) ->
 
-  robot.respond /こじはる, (res) ->
+  robot.respond /こじはる $/i, (res) ->
     res.send "かわいい"
