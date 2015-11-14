@@ -12,6 +12,6 @@ module.exports = (robot) ->
     res.send "お〜い <@hamuhamu>"
 
 
-robot.respond /sesamepi (.*)/, (res) ->
-  word = res.match[1]
-  res.reply "jpi #{word}"
+  robot.respond /sesamepi (.*)/, (res) ->
+    word = res.match[1]
+    res.reply "jpi #{word}"
