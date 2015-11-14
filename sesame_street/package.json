@@ -8,7 +8,6 @@
     "hubot-maps": "0.0.2",
     "hubot-help": "~0.1.2",
     "hubot-shipit": "~0.2.0",
-    "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "~0.2.3",
     "hubot-google-translate": "~0.2.0",
     "hubot-rules": "~0.1.1",
