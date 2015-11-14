@@ -27,3 +27,8 @@ module.exports = (robot) ->
       2: "Stay hungry. Stay foolish. (ハングリーであれ、愚かであれ) by Steve Jobs"
 
     res.send hash[rand]
+
+  robot.respond /困ったとき$/i, (res) ->
+    res.send "Please speak calmly. (落ち着いて話してください)"
+    res.send "I don't know how to say. (なんと言えばいいか分かりません)"
+    res.send "Let me think about it. (ちょっと考えさせて下さい)"
