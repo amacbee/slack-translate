@@ -1,8 +1,14 @@
+.PHONY: install setup heroku-setup help deploy
+
 install:
 	curl -kL https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python
 	pip install microsofttranslator
 
 setup:
+	heroku login
+	git remote add heroku https://git.heroku.com/slack-translate.git
+
+setup-with-heroku-env:
 	heroku login
 	heroku create slack-translate
 	heroku addons:add redistogo:nano
